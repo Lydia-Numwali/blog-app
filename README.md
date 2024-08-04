@@ -7,9 +7,7 @@ This is a blogging application built with React, TypeScript, and Node.js. The ap
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Running the Application](#running-the-application)
-- [Folder Structure](#folder-structure)
-- [API Endpoints](#api-endpoints)
-- [License](#license)
+- [Authors](#authors)
 
 ## Features
 - User authentication (login and logout)
@@ -38,8 +36,8 @@ This is a blogging application built with React, TypeScript, and Node.js. The ap
 ### Backend Setup
 1. Clone the repository
     ```bash
-    git clone https://github.com/yourusername/blogging-app.git
-    cd blogging-app
+    git clone https://github.com/Lydia-Numwali/blog-app.git
+    cd blog-app
     ```
 
 2. Navigate to the backend directory
@@ -58,7 +56,7 @@ This is a blogging application built with React, TypeScript, and Node.js. The ap
     DATABASE_URL=your-database-url
     JWT_SECRET=your-jwt-secret
     ```
-    Also setup your database for my case I used postgresql and create users,posts,comment tables in your database
+    Also setup your database for my case I used PostgreSQL and create users, posts, comment tables in your database
 
 5. Start the backend server
     ```bash
@@ -68,7 +66,7 @@ This is a blogging application built with React, TypeScript, and Node.js. The ap
 ### Frontend Setup
 1. Navigate to the frontend directory
     ```bash
-    cd ../frontend
+    cd ../client
     ```
 
 2. Install the dependencies
@@ -102,24 +100,6 @@ This is a blogging application built with React, TypeScript, and Node.js. The ap
 
 3. Open your browser and navigate to `http://localhost:5000` to see the application in action.
 
-## Folder Structure
 
-blogging-app/
-├── backend/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ ├── server.js
-│ ├── .env
-│ ├── package.json
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── context/
-│ │ ├── pages/
-│ │ ├── App.tsx
-│ │ ├── index.tsx
-│ ├── public/
-│ ├── .env
-│ ├── package.json
+## Author
+- **Lydia Numwali** - [Lydia-Numwali](https://github.com/Lydia-Numwali)
