@@ -2,7 +2,7 @@ import TextArea from "@/components/TextArea";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
-import "react-quill/dist/quill.snow.css"; // Import the Quill editor styles
+import "react-quill/dist/quill.snow.css"; 
 import { MdOutlineDriveFolderUpload } from "react-icons/md";
 import axios from 'axios';
 import { format } from "date-fns";
@@ -54,7 +54,6 @@ const Post = () => {
       if (file) {
         const formData = new FormData();
         formData.append("file", file);
-        //I added the endpoint (http://localhost:5000) only because it's in development, I know this is not good at production level
         const res = await axios.post("http://localhost:5000/upload", formData);
         return res.data;
       }
